@@ -23,6 +23,7 @@ public class StenSaksPapir {
         String computerPlay = " ";
         Random generator = new Random();
 
+
         int computerInt = generator.nextInt();
         if(computerInt == 1) {
             computerPlay = "Sten";
@@ -34,9 +35,8 @@ public class StenSaksPapir {
         System.out.println("Du vælger: " + playerPlay);
         System.out.println("Computeren vælger: " + computerPlay);
 
-        if (playerPlay.equals(computerPlay)){
-            System.out.println("Det blev uafgjort");
-        }
+
+
     }
 
 }
