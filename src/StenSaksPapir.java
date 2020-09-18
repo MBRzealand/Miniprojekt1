@@ -7,11 +7,24 @@ public class StenSaksPapir {
 
     public static void main(String[] args) {
 
-        Random generator = new Random();
         System.out.println("Lad os spille sten saks papir");
+        Scanner input = new Scanner(System.in);
 
+        String PlayerPlay = " ";
+        int x = input.nextInt();
+
+        String computerPlay = " ";
+        Random generator = new Random();
 
         int computerInt = generator.nextInt();
+        if(computerInt == 1) {
+            computerPlay = "Sten";
+        }else if (computerInt == 2){
+            computerPlay = "Saks";
+        }else if (computerInt == 3);
+            computerPlay = "Papir";
 
-        if(computerInt == 1);
+        System.out.println("Computeren vælger: " + computerPlay);
+    }
+
 }
