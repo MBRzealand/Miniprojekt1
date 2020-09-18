@@ -24,13 +24,14 @@ public class StenSaksPapir {
         Random generator = new Random();
 
 
-        int computerInt = generator.nextInt();
+        int computerInt = generator.nextInt(3)+1;
         if(computerInt == 1) {
             computerPlay = "Sten";
         }else if (computerInt == 2){
             computerPlay = "Saks";
-        }else if (computerInt == 3);
+        }else if (computerInt == 3) {
             computerPlay = "Papir";
+        }
 
         System.out.println("Du vælger: " + playerPlay);
         System.out.println("Computeren vælger: " + computerPlay);
