@@ -19,6 +19,7 @@ public class TalGaetter {
             System.out.println("Du skal svare ja eller nej");
             return gaetNummer(start, slut);
         }
+
         if (svar.equals("ja")){
             return gaetNummer(mid+1, slut);
         } else if (svar.equals("nej")){
@@ -29,7 +30,6 @@ public class TalGaetter {
         }
     }
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         System.out.println("Hej, velkommen til talgætter-spillet!\nVælg et helt tal imellem 0 og 1000, og så bruger jeg nogle forsøg på at gætte tallet");
         gaetNummer(1, 1000);
     }

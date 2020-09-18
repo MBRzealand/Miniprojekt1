@@ -37,6 +37,7 @@ public class MiniComputer {
                         break;
                     case 6:
                         ConverSec.main(null);
+                        break;
                     //case 7:
                     //    CYOAdventure.main(null);
                     case 8:
