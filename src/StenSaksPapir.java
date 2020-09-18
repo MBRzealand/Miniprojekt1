@@ -43,6 +43,8 @@ public class StenSaksPapir {
 
         /* Hvis det bliver uafgjort printer den stadig "Du tabte" ud
         og den printer "Du tabte" ud selvom den burde printe "Du vandt ud.
+
+        Jeg har også prøvet at bruge sout i stedet for PlayerWon, men det virkede heller ikke
         */
 
     }if (playerPlay.equals(1)){
