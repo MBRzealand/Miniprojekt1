@@ -45,9 +45,6 @@ public class MiniComputer {
                 System.out.println("Farvel!");
             }
         }
-
     }
-
-}
 
 
