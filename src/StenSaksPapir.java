@@ -40,28 +40,30 @@ public class StenSaksPapir {
     boolean PlayerWon = false;
     if (playerPlay.equals(computerPlay)) {
         System.out.println("Det blev uafgjort");
-        PlayerWon = false;
 
-    }else if (playerPlay.equals(1))
-    if (computerPlay.equals(2)){
+        /* Hvis det bliver uafgjort printer den stadig "Du tabte" ud
+        og den printer "Du tabte ud selvom den burde printe "Du vandt ud
+        */
+
+    }if (playerPlay.equals(1)){
+    } else if (computerPlay.equals(2)){
         PlayerWon = true;
 
-    } else if (computerPlay.equals(3)){
+    }if (computerPlay.equals(3)){
         PlayerWon = false;
-    // under her
-    }else if (playerPlay.equals(2))
-        if (computerPlay.equals(3)){
+
+    }else if (playerPlay.equals(2)){
+
+    }if (computerPlay.equals(3)){
         PlayerWon = true;
 
     } else if (computerPlay.equals(1)) {
         PlayerWon = false;
     }
 
-
-
     if (PlayerWon == true) {
             System.out.println("Du vandt");
-        }else {
+        }else if (PlayerWon ==false){
             System.out.println("Du tabte");
         }
     }
