@@ -20,7 +20,7 @@ public class Jokes {
 
         if (x==1) System.out.println(" I'm a big fan of whiteboards. I find them quite re-markable.\n ");
         if (x==2) System.out.println(" What genre of music are national anthems? Country..\n ");
-        if (x==3) System.out.println(" What has 4 letters, sometimes has 9 letters, but never has 5 letters.\n ");
+        if (x==3) System.out.println(" Two guys stole a calendar. They got six months each.\n ");
 
     }
 }
