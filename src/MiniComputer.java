@@ -13,11 +13,12 @@ public class MiniComputer {
 
         System.out.println("Velkommen til minicomputer!");
 
+        Scanner input = new Scanner(System.in);
+
         for (int i = 0; i < 3; i++) {
 
             System.out.print("Hvilket miniprogram vil du køre [1..9]? ");
 
-            Scanner input = new Scanner(System.in);
             int x = input.nextInt();
 
             if ( x == 1) { Terning.kast(); }
