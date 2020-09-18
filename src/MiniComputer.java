@@ -31,9 +31,7 @@ public class MiniComputer {
         }
         return true;
     }
-
-    public static void main(String[] args) {
-
+    static int choice() {
         Scanner input = new Scanner(System.in);
         System.out.println("\nVelkommen til minicomputer!\n\nVælg et program med tallene:");
         Boolean flipped = true;
@@ -44,68 +42,39 @@ public class MiniComputer {
             try {
                 x = input.nextInt();
                 switch (x) {
-                    case 1:
-                        Terning.main(null);
-                        flipped = igen();
-                        break;
-                    case 2:
-                        RentersRente.main(null);
-                        flipped = igen();
-                        break;
-                    case 3:
-                        LottoTal.main(null);
-                        flipped = igen();
-                        break;
-                    case 4:
-                        Convert.main(null);
-                        flipped = igen();
-                        break;
-                    case 5:
-                        StenSaksPapir.main(null);
-                        flipped = igen();
-                        break;
-                    case 6:
-                        ConverSec.main(null);
-                        flipped = igen();
-                        break;
-                    case 7:
-                        CYOAdventure.main(null);
-                        flipped = igen();
-                        break;
-                    case 8:
-                        HejVerden.main(null);
-                        flipped = igen();
-                        break;
-                    case 9:
-                        TalGaetter.main(null);
-                        flipped = igen();
-                        break;
-                    case 10:
-                        ASCII_Art.main(null);
-                        flipped = igen();
-                        break;
-                    case 11:
-                        Findvokaler.main(null);
-                        flipped = igen();
-                        break;
-                    case 12:
-                        Jokes.main(null);
-                        flipped = igen();
-                        break;
-                    case 13:
-                        flipped = false;
-                        break;
-                    default:
-                        System.out.println("Vælg et af de givne muligheder..");
-                        break;
+                    case 1 -> Terning.main(null);
+                    case 2 -> RentersRente.main(null);
+                    case 3 -> LottoTal.main(null);
+                    case 4 -> Convert.main(null);
+                    case 5 -> StenSaksPapir.main(null);
+                    case 6 -> ConverSec.main(null);
+                    case 7 -> CYOAdventure.main(null);
+                    case 8 -> HejVerden.main(null);
+                    case 9 -> TalGaetter.main(null);
+                    case 10 -> ASCII_Art.main(null);
+                    case 11 -> Findvokaler.main(null);
+                    case 12 -> Jokes.main(null);
+                    case 13 -> {
+                        System.out.println("Farvel");
+                        return 0;
+                    }
+                    default -> System.out.println("Vælg et af de givne muligheder..");
                 }
-            } catch(Exception e){
+
+            } catch (Exception e) {
                 System.out.println("Du kom ikke med et tal.. Prøv igen");
                 input.next();
             }
+            flipped = igen();
         }
         System.out.println("Farvel");
-        }
+        return 0;
     }
+
+    public static void main(String[] args) {
+        choice();
+    }
+}
+
 
 
