@@ -16,7 +16,7 @@ public class MiniComputer {
             Boolean flipped = true;
             while (flipped) {
                 System.out.println("\nVelkommen til minicomputer!\n\nVælg et program med tallene:");
-                System.out.println("\n1. Terninge Kast\n2. Renters Rente\n3. ASCII Kunst\n4. Konverter\n5. Rock Paper Scissors\n6. ConvertSec\n" +
+                System.out.println("\n1. Terninge Kast\n2. Renters Rente\n3. LottoTal\n4. Konverter\n5. Rock Paper Scissors\n6. ConvertSec\n" +
                         "7. Choose Your Own Adventure\n8. Hej Verden\n9. Talgætter\n10. ASCII Art\n11. Find Vokaler\n12. Jokes\n13. Sluk minicomputer.");
                 int x = input.nextInt();
 
@@ -28,7 +28,7 @@ public class MiniComputer {
                         RentersRente.main(null);
                         break;
                     case 3:
-                        ASCII_Art.main(null);
+                        LottoTal.main(null);
                         break;
                     case 4:
                         Convert.main(null);
