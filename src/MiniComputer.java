@@ -16,25 +16,35 @@ public class MiniComputer {
 
         Scanner input = new Scanner(System.in);
 
-        for (int i = 0; i < 3; i++) {
-
-            System.out.print("\nHvilket miniprogram vil du køre [1..9]? ");
-
             int x = input.nextInt();
-
-            if ( x == 1) {
-                RentersRente.main(null);
-
+            Boolean flipped = true;
+            while (flipped) {
+                switch (x) {
+                    case 1:
+                        Terning.main(null);
+                        break;
+                    case 2:
+                        RentersRente.main(null);
+                        break;
+                    case 3:
+                        ASCII_Art.main(null);
+                        break;
+                    case 4:
+                        Convert.main(null);
+                        break;
+                    case 5:
+                    StenSaksPapir.main(null);
+                        break;
+                    case 6:
+                        flipped = false;
+                        break;
+                    default:
+                        System.out.println("Vælg et af de givne muligheder..");
+                        break;
+                }
+                System.out.println("Farvel!");
             }
-            // Dine if sætninger skal komme her
-            // Bil.dyt();
-
         }
-
-        System.out.println("Farvel!");
-
     }
-
-}
 
 
