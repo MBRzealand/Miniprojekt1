@@ -18,6 +18,7 @@ public class MiniComputer {
                 System.out.println("\nVelkommen til minicomputer!\n\nVælg et program med tallene:");
                 System.out.println("\n1. Terninge Kast \n2. Renters Rente\n3. ASCII Kunst \n4. Konverter \n5. Rock Paper Scissors \n6. Luk Computer");
                 int x = input.nextInt();
+
                 switch (x) {
                     case 1:
                         Terning.main(null);
@@ -32,17 +33,24 @@ public class MiniComputer {
                         Convert.main(null);
                         break;
                     case 5:
-                    StenSaksPapir.main(null);
+                        StenSaksPapir.main(null);
                         break;
                     case 6:
+                        ConverSec.main(null);
+                    //case 7:
+                    //    CYOAdventure.main(null);
+                    case 8:
+                        HejVerden.main(null);
+                    case 9:
                         flipped = false;
+                        System.out.println("Farvel!");
                         break;
                     default:
                         System.out.println("Vælg et af de givne muligheder..");
                         break;
                 }
             }
-        System.out.println("Farvel!");
+
         }
     }
 
