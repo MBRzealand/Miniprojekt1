@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// Made by Kim
 
 public class Jokes {
 
