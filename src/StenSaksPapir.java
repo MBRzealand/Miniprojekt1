@@ -42,7 +42,7 @@ public class StenSaksPapir {
         System.out.println("Det blev uafgjort");
 
         /* Hvis det bliver uafgjort printer den stadig "Du tabte" ud
-        og den printer "Du tabte ud selvom den burde printe "Du vandt ud
+        og den printer "Du tabte" ud selvom den burde printe "Du vandt ud.
         */
 
     }if (playerPlay.equals(1)){
