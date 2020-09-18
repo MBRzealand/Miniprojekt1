@@ -47,9 +47,18 @@ public class StenSaksPapir {
         PlayerWon = true;
 
     } else if (computerPlay.equals(3)){
-        System.out.println("Du tabte");
+        PlayerWon = false;
+    // under her
+    }else if (playerPlay.equals(2))
+        if (computerPlay.equals(3)){
+        PlayerWon = true;
+
+    } else if (computerPlay.equals(1)) {
         PlayerWon = false;
     }
+
+
+
     if (PlayerWon == true) {
             System.out.println("Du vandt");
         }else {
