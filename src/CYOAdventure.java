@@ -77,12 +77,15 @@ static void startAdventure(){
 
                                             }
 
+                                            break;
+
                                         case 2:
                                             System.out.println(line1);
                                             break;
                                             //slut
 
                                     }
+                                    break;
 
                                 case 2:
                                     System.out.println(line14);
@@ -90,6 +93,8 @@ static void startAdventure(){
                                     //slut
 
                             }
+
+                            break;
 
                         case 2:
                             System.out.println(line12);
@@ -126,6 +131,8 @@ static void startAdventure(){
 
                                                     }
 
+                                                    break;
+
                                                 case 2:
                                                     System.out.println(line1);
                                                     break;
@@ -133,13 +140,15 @@ static void startAdventure(){
 
                                             }
 
+                                            break;
+
                                         case 2:
                                             System.out.println(line14);
                                             break;
                                             //slut
 
                                     }
-
+                                    break;
 
                                 case 2:
                                     System.out.println(line6);
@@ -162,6 +171,8 @@ static void startAdventure(){
                             }
 
                     }
+
+                    break;
 
                 case 2:
                     System.out.println(line2);
@@ -191,6 +202,7 @@ static void startAdventure(){
                                             //slut
 
                                     }
+                                    break;
 
                                 case 2:
                                     System.out.println(line1);
@@ -198,6 +210,7 @@ static void startAdventure(){
                                     //slut
 
                             }
+                            break;
 
                         case 2:
                             System.out.println(line9);
@@ -232,6 +245,7 @@ static void startAdventure(){
                                                             //slut
 
                                                     }
+                                                    break;
 
                                                 case 2:
                                                     System.out.println(line1);
@@ -239,12 +253,14 @@ static void startAdventure(){
                                                     // slut
 
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line20);
                                             break;
                                             //slut
                                     }
+                                    break;
 
                                     case 2:
                                         System.out.println(line20);
@@ -255,7 +271,7 @@ static void startAdventure(){
 
                     }
             }
-
+        break;
         case 2:
             System.out.println(line4);
             count = input.nextInt();
@@ -301,12 +317,14 @@ static void startAdventure(){
                                                             // slut
 
                                                     }
+                                                    break;
 
                                                 case 2:
                                                     System.out.println(line1);
                                                     break;
                                                     // slut
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line14);
@@ -314,6 +332,7 @@ static void startAdventure(){
                                             //slut
 
                                     }
+                                    break;
 
                                 case 2:
                                     System.out.println(line12);
@@ -349,6 +368,7 @@ static void startAdventure(){
                                                                     //slut
 
                                                             }
+                                                            break;
 
                                                         case 2:
                                                             System.out.println(line1);
@@ -356,6 +376,7 @@ static void startAdventure(){
                                                             // slut
 
                                                     }
+                                                    break;
 
                                                 case 2:
                                                     System.out.println(line14);
@@ -363,6 +384,7 @@ static void startAdventure(){
                                                     // slut
 
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line6);
@@ -385,6 +407,7 @@ static void startAdventure(){
                                     }
 
                             }
+                            break;
 
                         case 2:
                             System.out.println(line2);
@@ -414,6 +437,7 @@ static void startAdventure(){
                                                     //slut
 
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line1);
@@ -421,6 +445,7 @@ static void startAdventure(){
                                             //slut
 
                                     }
+                                    break;
 
                                 case 2:
                                     System.out.println(line9);
@@ -453,6 +478,7 @@ static void startAdventure(){
                                                                     //slut
 
                                                             }
+                                                            break;
 
                                                         case 2:
                                                             System.out.println(line1);
@@ -460,6 +486,7 @@ static void startAdventure(){
                                                             //slut
 
                                                     }
+                                                    break;
 
                                                 case 2:
                                                     System.out.println(line20);
@@ -467,6 +494,7 @@ static void startAdventure(){
                                                     //slut
 
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line20);
@@ -478,6 +506,7 @@ static void startAdventure(){
                             }
 
                     }
+                    break;
 
                 case 2:
                     System.out.println(line19);
@@ -525,6 +554,7 @@ static void startAdventure(){
                                                                     //slut
 
                                                             }
+                                                            break;
 
                                                         case 2:
                                                             System.out.println(line1);
@@ -532,12 +562,14 @@ static void startAdventure(){
                                                             //slut
 
                                                     }
+                                                    break;
                                                 case 2:
                                                     System.out.println(line14);
                                                     break;
                                                     //slut
 
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line12);
@@ -570,6 +602,7 @@ static void startAdventure(){
                                                                             //slut
 
                                                                     }
+                                                                    break;
 
                                                                 case 2:
                                                                     System.out.println(line1);
@@ -577,6 +610,7 @@ static void startAdventure(){
                                                                     //slut
 
                                                             }
+                                                            break;
 
                                                         case 2:
                                                             System.out.println(line14);
@@ -584,6 +618,7 @@ static void startAdventure(){
                                                             //slut
 
                                                     }
+                                                    break;
 
                                                 case 2:
                                                     System.out.println(line6);
@@ -605,6 +640,7 @@ static void startAdventure(){
                                             }
 
                                     }
+                                    break;
                                 case 2:
                                     System.out.println(line2);
                                     count = input.nextInt();
@@ -632,12 +668,14 @@ static void startAdventure(){
                                                             //slut
 
                                                     }
+                                                    break;
                                                 case 2:
                                                     System.out.println(line1);
                                                     break;
                                                     //slut
 
                                             }
+                                            break;
                                         case 2:
                                             System.out.println(line9);
                                             count = input.nextInt();
@@ -671,6 +709,7 @@ static void startAdventure(){
                                                                             //slut
 
                                                                     }
+                                                                    break;
 
                                                                 case 2:
                                                                     System.out.println(line1);
@@ -678,6 +717,7 @@ static void startAdventure(){
                                                                     //slut
 
                                                             }
+                                                            break;
 
                                                         case 2:
                                                             System.out.println(line20);
@@ -685,6 +725,7 @@ static void startAdventure(){
                                                             //slut
 
                                                     }
+                                                    break;
 
                                                 case 2:
                                                     System.out.println(line20);
@@ -699,7 +740,7 @@ static void startAdventure(){
 
                     }
             }
-
+        break;
         case 3:
             System.out.println(line10);
             System.out.println(line7);
@@ -737,19 +778,21 @@ static void startAdventure(){
                                                 //slut
 
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line1);
                                             break;
                                         //slut
                                     }
+                                    break;
 
                                 case 2:
                                     System.out.println(line14);
                                     break;
                                 //slut
                             }
-                                ////////////////////////
+                            break;
 
                         case 2:
                             System.out.println(line12);
@@ -783,12 +826,14 @@ static void startAdventure(){
                                                             //slut
 
                                                     }
+                                                    break;
 
                                                 case 2:
                                                     System.out.println(line1);
                                                     break;
                                                     //slut
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line14);
@@ -796,6 +841,7 @@ static void startAdventure(){
                                             //slut
 
                                     }
+                                    break;
 
                                 case 2:
                                     System.out.println(line6);
@@ -817,6 +863,7 @@ static void startAdventure(){
                             }
 
                     }
+                    break;
 
                 case 2:
                     System.out.println(line2);
@@ -845,12 +892,14 @@ static void startAdventure(){
                                             break;
 
                                             }
+                                            break;
                                 case 2:
                                     System.out.println(line1);
                                     break;
                                     //slut
 
                             }
+                            break;
 
                         case 2:
                             System.out.println(line9);
@@ -885,6 +934,7 @@ static void startAdventure(){
                                                             break;
 
                                                     }
+                                                    break;
 
                                                 case 2:
 
@@ -892,12 +942,14 @@ static void startAdventure(){
                                                     break;
 
                                             }
+                                            break;
 
                                         case 2:
                                             System.out.println(line20);
                                             break;
 
                                     }
+                                    break;
 
                                 case 2:
                                     System.out.println(line20);
