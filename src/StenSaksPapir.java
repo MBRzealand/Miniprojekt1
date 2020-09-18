@@ -14,8 +14,4 @@ public class StenSaksPapir {
         int computerInt = generator.nextInt();
 
         if(computerInt == 1);
-
-
-
-
 }
