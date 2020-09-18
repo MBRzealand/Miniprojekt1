@@ -3,8 +3,9 @@
 <h1>Minicomputer</h1>
 
 Dette lille projekt indeholder en minicomputer class, som kalder på 
+de små "spil"/"programmer" i computeren. 
 
-De små "spil"/"programmer" i computeren. Computeren indeholder følgende spil:
+<h3>Computeren indeholder følgende spil:</h3>
 
 1. CYOAdventure
 2. ConvertSec
