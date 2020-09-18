@@ -11,14 +11,13 @@ public class MiniComputer {
 
     public static void main(String[] args) {
 
-        System.out.println("\nVelkommen til minicomputer!\n\nVælg et program med tallene:");
-        System.out.println("\n1. Terninge Kast \n2. Renters Rente\n3. ASCII Kunst \n4. Konverter \n5. Rock Paper Scissors \n6. Luk Computer");
-
         Scanner input = new Scanner(System.in);
 
-            int x = input.nextInt();
             Boolean flipped = true;
             while (flipped) {
+                System.out.println("\nVelkommen til minicomputer!\n\nVælg et program med tallene:");
+                System.out.println("\n1. Terninge Kast \n2. Renters Rente\n3. ASCII Kunst \n4. Konverter \n5. Rock Paper Scissors \n6. Luk Computer");
+                int x = input.nextInt();
                 switch (x) {
                     case 1:
                         Terning.main(null);
@@ -42,8 +41,8 @@ public class MiniComputer {
                         System.out.println("Vælg et af de givne muligheder..");
                         break;
                 }
-                System.out.println("Farvel!");
             }
+        System.out.println("Farvel!");
         }
     }
 
