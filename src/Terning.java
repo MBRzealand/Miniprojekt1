@@ -8,10 +8,14 @@
 public class Terning {
 
     public static int kast() {
-
         double resultat = Math.random() * (6 - 1 + 1) + 1;
         System.out.println("Terningen viser: " + (int) resultat);
         return (int) resultat;
+    }
+
+    public static void main(String[] args) {
+        kast();
+
     }
 
 }
