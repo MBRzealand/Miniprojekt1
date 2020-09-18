@@ -10,10 +10,11 @@ public class ASCII_Art {
 
     }
 
-    public static void ASCII_Drawings(){
+    public static void ASCII_Drawings() {
 
-        //Promt the user to enter a number
-        System.out.println(" Indtast et nummer mellem 1-3 forskellig ASCII Art ");
+        //Promt the user to enter a number between 1-3
+
+        System.out.println(" Indtast et nummer mellem 1-3 for forskellig ASCII Art ");
 
         Scanner input = new Scanner(System.in);
         int x = input.nextInt();
@@ -29,7 +30,7 @@ public class ASCII_Art {
                 "             /                   \n" +
                 "             `   ");
 
-        if (x==2) System.out.println("   _----------_,\n" +
+        if (x == 2) System.out.println("   _----------_,\n" +
                 "    ,\"__         _-:, \n" +
                 "   /    \"\"--_--\"\"...:\\\n" +
                 "  /         |.........\\\n" +
@@ -42,7 +43,7 @@ public class ASCII_Art {
                 "   '.  \\         /;;;'\n" +
                 "     \"-_\\_______/;;'");
 
-        if (x==3) System.out.println("L L               /   \\               L L\n" +
+        if (x == 3) System.out.println("L L               /   \\               L L\n" +
                 "        __/|/|_             /  .  \\             _|\\|\\__\n" +
                 "       /_| [_[_\\           /     .-\\           /_]_] |_\\\n" +
                 "      /__\\  __`-\\_____    /    .    \\    _____/-`__  /__\\\n" +
