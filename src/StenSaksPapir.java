@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -36,17 +37,33 @@ public class StenSaksPapir {
         System.out.println("Du vælger: " + playerPlay);
         System.out.println("Computeren vælger: " + computerPlay);
 
+    boolean PlayerWon;
     if (playerPlay.equals(computerPlay)) {
         System.out.println("Det blev uafgjort");
+        PlayerWon = false;
 
-    }else if (playerPlay.equals(1) && (computerPlay.equals(2))) {
-            System.out.println("Du vinder sten slår saks");
-        }
+    }else if (playerPlay.equals(1))
+    if (computerPlay.equals(2)){
+        PlayerWon = true;
+
+    } else if (computerPlay.equals(3))
+        System.out.println("Du tabte");
+        PlayerWon = false;
 
 
-
-
+        if (PlayerWon = true) {
+            System.out.println("Du vandt");
+        }else {
+            System.out.println("Du tabte");
         }
     }
+}
+
+
+
+
+
+
+
 
 
