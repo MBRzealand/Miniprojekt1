@@ -18,7 +18,6 @@ de små "spil"/"programmer" i computeren.
 9. TalGætter
 10. Terning
 
-
 Lavet af Coding Dojo 
 
 
