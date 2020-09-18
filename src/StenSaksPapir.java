@@ -36,8 +36,17 @@ public class StenSaksPapir {
         System.out.println("Du vælger: " + playerPlay);
         System.out.println("Computeren vælger: " + computerPlay);
 
+    if (playerPlay.equals(computerPlay)) {
+        System.out.println("Det blev uafgjort");
+
+    }else if (playerPlay.equals(1) && (computerPlay.equals(2))) {
+            System.out.println("Du vinder sten slår saks");
+        }
 
 
+
+
+        }
     }
 
-}
+
