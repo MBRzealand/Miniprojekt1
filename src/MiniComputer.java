@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 
 public class MiniComputer {
-    static boolean igen() {
+    static boolean spørgigen()   {
         System.out.println("Vil du prøve et andet program? Tast [Y/N]");
         Scanner input = new Scanner(System.in);
         boolean flipped = true;
@@ -21,8 +21,8 @@ public class MiniComputer {
                 } else if (svar.equals("n")) {
                     return false;
                 } else {
-                    System.out.println("Ikke et validt input, tryk Y eller N");
-                    return igen();
+                    System.out.println("Ikke et gyldigt input, tryk Y eller N");
+                    return spørgigen();
                 }
             } catch (Exception e) {
                 System.out.println("Forkert input. Skriv enten Y eller N");
@@ -31,7 +31,7 @@ public class MiniComputer {
         }
         return true;
     }
-    static int choice() {
+    static int valg() {
         Scanner input = new Scanner(System.in);
         System.out.println("\nVelkommen til minicomputer!\n\nVælg et program med tallene:");
         Boolean flipped = true;
@@ -62,17 +62,17 @@ public class MiniComputer {
                 }
 
             } catch (Exception e) {
-                System.out.println("Du kom ikke med et tal.. Prøv igen");
+                System.out.println("Du kom ikke med et tal.. Prøv spørgigen");
                 input.next();
             }
-            flipped = igen();
+            flipped = spørgigen();
         }
         System.out.println("Farvel");
         return 0;
     }
 
     public static void main(String[] args) {
-        choice();
+        valg();
     }
 }
 
