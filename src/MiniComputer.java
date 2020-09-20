@@ -8,10 +8,16 @@ import java.util.Scanner;
  */
 
 public class MiniComputer {
+    /**
+     metode der returnere true eller false
+     */
     static boolean spørgigen()   {
         System.out.println("Vil du prøve et andet program? Tast [Y/N]");
         Scanner input = new Scanner(System.in);
         boolean flipped = true;
+        /**Løkke der kører indtil brugeren enten vælger Y eller N, hvis imnput ikke er gyldigt
+        så bliver det fanget enten i else klausen, eller i catch'n hvis det er en runtime fejl.
+         */
         while (flipped) {
             try {
                 String svar = input.nextLine().toLowerCase();
@@ -24,6 +30,7 @@ public class MiniComputer {
                     System.out.println("Ikke et gyldigt input, tryk Y eller N");
                     return spørgigen();
                 }
+            //Fanger runtime fejl, integer input udløser den f.eks
             } catch (Exception e) {
                 System.out.println("Forkert input. Skriv enten Y eller N");
                 input.next();
@@ -31,6 +38,9 @@ public class MiniComputer {
         }
         return true;
     }
+    /**
+        Computeres kontrolflow styres fra valg metoden.
+     */
     static int valg() {
         Scanner input = new Scanner(System.in);
         System.out.println("\nVelkommen til minicomputer!\n\nVælg et program med tallene:");
@@ -41,6 +51,7 @@ public class MiniComputer {
                     "7. Choose Your Own Adventure\n8. Hej Verden\n9. Talgætter\n10. ASCII Art\n11. Find Vokaler\n12. Jokes\n13. Sluk minicomputer.");
             try {
                 x = input.nextInt();
+                //Switch expression, modtager kun integers som input, alt andet bliver fanget i try/catch
                 switch (x) {
                     case 1 -> Terning.main(null);
                     case 2 -> RentersRente.main(null);
@@ -62,9 +73,10 @@ public class MiniComputer {
                 }
 
             } catch (Exception e) {
-                System.out.println("Du kom ikke med et tal.. Prøv spørgigen");
+                System.out.println("Du kom ikke med et tal..");
                 input.next();
             }
+            //sætter flipped lig true eller false
             flipped = spørgigen();
         }
         System.out.println("Farvel");
