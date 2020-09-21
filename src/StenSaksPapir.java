@@ -41,12 +41,18 @@ public class StenSaksPapir {
     if (playerPlay.equals(computerPlay)){
         System.out.println("Det blev uafgjort");
     }else if(playerPlay.equals("Sten") && computerPlay.equals("Saks")){
-            System.out.println("Du vandt");
+        System.out.println("Du vandt");
     }else if (playerPlay.equals("Sten") && computerPlay.equals("Papir")){
-            System.out.println("du tabte");
-    }else
-        System.out.println("hej");
-
+        System.out.println("du tabte");
+    }else if(playerPlay.equals("Saks") && computerPlay.equals("Sten")){
+        System.out.println("Du tabte");
+    }else if (playerPlay.equals("Saks") && computerPlay.equals("Papir")){
+        System.out.println("du vandt");
+    }else if(playerPlay.equals("Papir") && computerPlay.equals("Saks")){
+        System.out.println("Du tabte");
+    }else if (playerPlay.equals("Papir") && computerPlay.equals("Sten")){
+        System.out.println("du vandt");
+    }
 }
 }
 
