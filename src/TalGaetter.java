@@ -4,7 +4,7 @@ public class TalGaetter {
 
     static boolean gaetNummer(int start, int slut) {
         Scanner scan = new Scanner(System.in);
-
+        System.out.println("Hej, velkommen til talgætter-spillet!\nVælg et helt tal imellem 0 og 1000, og så bruger jeg nogle forsøg på at gætte tallet");
         int mid = (start + slut)/2;
         System.out.println("Er tallet " + mid + "? (Skriv Ja eller Nej)");
         String svar = scan.nextLine().toLowerCase().strip();
@@ -28,9 +28,5 @@ public class TalGaetter {
             System.out.println("Du skal svare ja, eller nej");
             return gaetNummer(start, slut);
         }
-    }
-    public static void main(String[] args) {
-        System.out.println("Hej, velkommen til talgætter-spillet!\nVælg et helt tal imellem 0 og 1000, og så bruger jeg nogle forsøg på at gætte tallet");
-        gaetNummer(1, 1000);
     }
 }

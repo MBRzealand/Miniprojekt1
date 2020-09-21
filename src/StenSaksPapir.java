@@ -5,7 +5,7 @@ import java.util.Random;
 public class StenSaksPapir {
 
 
-    public static void  main() {
+    public static void stenSaksPapir() {
         Scanner input = new Scanner(System.in);
         System.out.println("Lad os spille sten saks papir");
         System.out.println("1 = sten  2 = saks 3 = papir");

@@ -53,15 +53,15 @@ public class MiniComputer {
                 x = input.nextInt();
                 //Switch expression, modtager kun integers som input, alt andet bliver fanget i try/catch
                 switch (x) {
-                    case 1 -> Terning.main(null);
+                    case 1 -> Terning.terning();
                     case 2 -> RentersRente.renteinterest();
                     case 3 -> LottoTal.tal();
                     case 4 -> Convert.money();
-                    case 5 -> StenSaksPapir.main();
+                    case 5 -> StenSaksPapir.stenSaksPapir();
                     case 6 -> ConverSec.ConvertSec();
                     case 7 -> CYOAdventure.startAdventure();
-                    case 8 -> HejVerden.main(null);
-                    case 9 -> TalGaetter.main(null);
+                    case 8 -> HejVerden.HejVerden();
+                    case 9 -> TalGaetter.gaetNummer(1, 1000);
                     case 10 -> ASCII_Art.ASCII_Drawings();
                     case 11 -> Findvokaler.ord();
                     case 12 -> Jokes.vittigheder();
