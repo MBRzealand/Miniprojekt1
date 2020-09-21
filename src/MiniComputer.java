@@ -57,7 +57,7 @@ public class MiniComputer {
                     case 2 -> RentersRente.main(null);
                     case 3 -> LottoTal.tal();
                     case 4 -> Convert.money();
-                    case 5 -> StenSaksPapir.main(null);
+                    case 5 -> StenSaksPapir.main();
                     case 6 -> ConverSec.ConvertSec();
                     case 7 -> CYOAdventure.main(null);
                     case 8 -> HejVerden.main(null);
