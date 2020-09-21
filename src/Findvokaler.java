@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Findvokaler {
 
-    public static void main(String[] args) {
+    public static void ord() {
 
 
         // Opsæt variabler:

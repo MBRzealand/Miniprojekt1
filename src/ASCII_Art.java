@@ -4,12 +4,6 @@ import java.util.Scanner;
 
 public class ASCII_Art {
 
-    public static void main(String[] args) {
-
-        ASCII_Drawings();
-
-    }
-
     public static void ASCII_Drawings() {
 
         //Promt the user to enter a number between 1-3
@@ -63,3 +57,4 @@ public class ASCII_Art {
     }
 
 }
+

@@ -2,7 +2,7 @@ import java.util.Scanner;
 //Made By Anders Hjordrup Larsen
 public class Convert {
 
-    public static void main(String[] args) {
+    public static void money() {
 
 
         //Promt user to input and amount.

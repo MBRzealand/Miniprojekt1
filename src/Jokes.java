@@ -3,14 +3,9 @@ import java.util.Scanner;
 
 public class Jokes {
 
-    public static void main(String[] args) {
-
-        vittigheder();
-
-
-    }
     public static void vittigheder(){
 
+        vittigheder();
         //Promt the user to enter a number between 1-3
 
         System.out.println(" Indtast et nummer mellem 1-3 ");
