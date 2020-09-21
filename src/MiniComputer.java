@@ -62,9 +62,9 @@ public class MiniComputer {
                     case 7 -> CYOAdventure.main(null);
                     case 8 -> HejVerden.main(null);
                     case 9 -> TalGaetter.main(null);
-                    case 10 -> ASCII_Art.main(null);
+                    case 10 -> ASCII_Art.ASCII_Drawings();
                     case 11 -> Findvokaler.ord();
-                    case 12 -> Jokes.main(null);
+                    case 12 -> Jokes.vittigheder();
                     case 13 -> {
                         System.out.println("Farvel");
                         return 0;
