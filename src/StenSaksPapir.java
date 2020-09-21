@@ -1,4 +1,3 @@
-import javax.swing.*;
 import java.util.Scanner;
 import java.util.Random;
 
@@ -6,7 +5,7 @@ import java.util.Random;
 public class StenSaksPapir {
 
 
-    public static void main(String[] args) {
+    public static void  main() {
         Scanner input = new Scanner(System.in);
         System.out.println("Lad os spille sten saks papir");
         System.out.println("1 = sten  2 = saks 3 = papir");
@@ -40,7 +39,7 @@ public class StenSaksPapir {
 
     if (playerPlay.equals(computerPlay)){
         System.out.println("Det blev uafgjort");
-    }else if(playerPlay.equals("Sten") && computerPlay.equals("Saks")){
+    }else if(playerPlay.equals("Sten") && computerPlay.equals("Saks")) {
         System.out.println("Du vandt");
     }else if (playerPlay.equals("Sten") && computerPlay.equals("Papir")){
         System.out.println("du tabte");
