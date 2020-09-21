@@ -54,12 +54,12 @@ public class MiniComputer {
                 //Switch expression, modtager kun integers som input, alt andet bliver fanget i try/catch
                 switch (x) {
                     case 1 -> Terning.main(null);
-                    case 2 -> RentersRente.main(null);
+                    case 2 -> RentersRente.renteinterest();
                     case 3 -> LottoTal.tal();
                     case 4 -> Convert.money();
                     case 5 -> StenSaksPapir.main();
                     case 6 -> ConverSec.ConvertSec();
-                    case 7 -> CYOAdventure.main(null);
+                    case 7 -> CYOAdventure.startAdventure();
                     case 8 -> HejVerden.main(null);
                     case 9 -> TalGaetter.main(null);
                     case 10 -> ASCII_Art.ASCII_Drawings();

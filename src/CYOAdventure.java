@@ -27,570 +27,569 @@ class CYOAdventure {
     static String line20 = "Ghosts appear. You fall to the floor and cannot move. Eventually, you die of dehydration, surrounded only by apparitions.";
 
 
+    public static void startAdventure() {
 
+        System.out.println("You’re walking your dog, Rufus, and see an abandoned house. Do you:\n1. Explore\n2. Walk away\n3. Let Rufus decide");
 
-static void startAdventure(){
+        int count = input.nextInt();
 
-    System.out.println("You’re walking your dog, Rufus, and see an abandoned house. Do you:\n1. Explore\n2. Walk away\n3. Let Rufus decide");
-
-    int count = input.nextInt();
-
-    switch (count) {
-        case 1 -> {
-            System.out.println(line7);
-            count = input.nextInt();
-            switch (count) {
-                case 1 -> {
-                    System.out.println(line15);
-                    count = input.nextInt();
-                    switch (count) {
-                        case 1 -> {
-                            System.out.println(line8);
-                            count = input.nextInt();
-                            //slut
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line16);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line18);
-                                            count = input.nextInt();
-                                            //slut
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> System.out.println(line20);
-                                                case 2 -> System.out.println(line1);
-                                            }
-                                        }
-                                        case 2 -> System.out.println(line1);
-                                    }
-                                }
-                                case 2 -> System.out.println(line14);
-                            }
-                        }
-                        case 2 -> {
-                            System.out.println(line12);
-                            count = input.nextInt();
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line3);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line16);
-                                            count = input.nextInt();
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line18);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> System.out.println(line20);
-                                                        case 2 -> System.out.println(line1);
-                                                    }
+        switch (count) {
+            case 1 -> {
+                System.out.println(line7);
+                count = input.nextInt();
+                switch (count) {
+                    case 1 -> {
+                        System.out.println(line15);
+                        count = input.nextInt();
+                        switch (count) {
+                            case 1 -> {
+                                System.out.println(line8);
+                                count = input.nextInt();
+                                //slut
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line16);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line18);
+                                                count = input.nextInt();
+                                                //slut
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> System.out.println(line20);
+                                                    case 2 -> System.out.println(line1);
                                                 }
-                                                case 2 -> System.out.println(line1);
                                             }
+                                            case 2 -> System.out.println(line1);
                                         }
-                                        case 2 -> System.out.println(line14);
                                     }
+                                    case 2 -> System.out.println(line14);
                                 }
-                                case 2 -> {
-                                    System.out.println(line6);
-                                    count = input.nextInt();
-                                    //slut
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> System.out.println(line5);
-                                        case 2 -> System.out.println(line13);
+                            }
+                            case 2 -> {
+                                System.out.println(line12);
+                                count = input.nextInt();
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line3);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line16);
+                                                count = input.nextInt();
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line18);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> System.out.println(line20);
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line1);
+                                                }
+                                            }
+                                            case 2 -> System.out.println(line14);
+                                        }
+                                    }
+                                    case 2 -> {
+                                        System.out.println(line6);
+                                        count = input.nextInt();
+                                        //slut
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> System.out.println(line5);
+                                            case 2 -> System.out.println(line13);
+                                        }
                                     }
                                 }
                             }
                         }
                     }
-                }
-                case 2 -> {
-                    System.out.println(line2);
-                    count = input.nextInt();
-                    switch (count) {
-                        case 1 -> {
-                            System.out.println(line16);
-                            count = input.nextInt();
-                            //slut
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line18);
-                                    count = input.nextInt();
-                                    //slut
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> System.out.println(line20);
-                                        case 2 -> System.out.println(line1);
-                                    }
-                                }
-                                case 2 -> System.out.println(line1);
-                            }
-                        }
-                        case 2 -> {
-                            System.out.println(line9);
-                            count = input.nextInt();
-                            //slut
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line11);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line16);
-                                            count = input.nextInt();
-                                            // slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line18);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> System.out.println(line20);
-                                                        case 2 -> System.out.println(line1);
-                                                    }
-                                                }
-                                                case 2 -> System.out.println(line1);
-                                            }
-                                        }
-                                        case 2 -> System.out.println(line20);
-                                    }
-                                }
-                                case 2 -> System.out.println(line20);
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        case 2 -> {
-            System.out.println(line4);
-            count = input.nextInt();
-            switch (count) {
-                case 1 -> {
-                    System.out.println(line7);
-                    count = input.nextInt();
-                    switch (count) {
-                        case 1 -> {
-                            System.out.println(line15);  /////
-                            count = input.nextInt();
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line8);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line16);
-                                            count = input.nextInt();
-                                            // slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line18);
-                                                    count = input.nextInt();
-                                                    // slut
-                                                    // slut
-                                                    switch (count) {
-                                                        case 1 -> System.out.println(line20);
-                                                        case 2 -> System.out.println(line1);
-                                                    }
-                                                }
-                                                case 2 -> System.out.println(line1);
-                                            }
-                                        }
-                                        case 2 -> System.out.println(line14);
-                                    }
-                                }
-                                case 2 -> {
-                                    System.out.println(line12);
-                                    count = input.nextInt();
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line3);
-                                            count = input.nextInt();
-                                            // slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line16);
-                                                    count = input.nextInt();
-                                                    // slut
-                                                    switch (count) {
-                                                        case 1 -> {
-                                                            System.out.println(line18);
-                                                            count = input.nextInt();
-                                                            //slut
-                                                            //slut
-                                                            switch (count) {
-                                                                case 1 -> System.out.println(line20);
-                                                                case 2 -> System.out.println(line1);
-                                                            }
-                                                        }
-                                                        case 2 -> System.out.println(line1);
-                                                    }
-                                                }
-                                                case 2 -> System.out.println(line14);
-                                            }
-                                        }
-                                        case 2 -> {
-                                            System.out.println(line6);
-                                            count = input.nextInt();
-                                            //slut
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> System.out.println(line5);
-                                                case 2 -> System.out.println(line13);
-                                            }
+                    case 2 -> {
+                        System.out.println(line2);
+                        count = input.nextInt();
+                        switch (count) {
+                            case 1 -> {
+                                System.out.println(line16);
+                                count = input.nextInt();
+                                //slut
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line18);
+                                        count = input.nextInt();
+                                        //slut
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> System.out.println(line20);
+                                            case 2 -> System.out.println(line1);
                                         }
                                     }
+                                    case 2 -> System.out.println(line1);
                                 }
                             }
-                        }
-                        case 2 -> {
-                            System.out.println(line2);
-                            count = input.nextInt();
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line16);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line18);
-                                            count = input.nextInt();
-                                            //slut
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> System.out.println(line20);
-                                                case 2 -> System.out.println(line1);
-                                            }
-                                        }
-                                        case 2 -> System.out.println(line1);
-                                    }
-                                }
-                                case 2 -> {
-                                    System.out.println(line9);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line11);
-                                            count = input.nextInt();
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line16);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> {
-                                                            System.out.println(line18);
-                                                            count = input.nextInt();
-                                                            //slut
-                                                            //slut
-                                                            switch (count) {
-                                                                case 1 -> System.out.println(line20);
-                                                                case 2 -> System.out.println(line1);
-                                                            }
+                            case 2 -> {
+                                System.out.println(line9);
+                                count = input.nextInt();
+                                //slut
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line11);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line16);
+                                                count = input.nextInt();
+                                                // slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line18);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> System.out.println(line20);
+                                                            case 2 -> System.out.println(line1);
                                                         }
-                                                        case 2 -> System.out.println(line1);
                                                     }
-                                                }
-                                                case 2 -> System.out.println(line20);
-                                            }
-                                        }
-                                        case 2 -> System.out.println(line20);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                case 2 -> {
-                    System.out.println(line19);
-                    count = input.nextInt();
-                    // slut
-                    switch (count) {
-                        case 1 -> System.out.println(line17);
-                        case 2 -> {
-                            System.out.println(line7);
-                            count = input.nextInt();
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line15);
-                                    count = input.nextInt();
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line8);
-                                            count = input.nextInt();
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line16);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> {
-                                                            System.out.println(line18);
-                                                            count = input.nextInt();
-                                                            //slut
-                                                            //slut
-                                                            switch (count) {
-                                                                case 1 -> System.out.println(line20);
-                                                                case 2 -> System.out.println(line1);
-                                                            }
-                                                        }
-                                                        case 2 -> System.out.println(line1);
-                                                    }
-                                                }
-                                                case 2 -> System.out.println(line14);
-                                            }
-                                        }
-                                        case 2 -> {
-                                            System.out.println(line12);
-                                            count = input.nextInt();
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line3);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> {
-                                                            System.out.println(line16);
-                                                            count = input.nextInt();
-                                                            //slut
-                                                            switch (count) {
-                                                                case 1 -> {
-                                                                    System.out.println(line18);
-                                                                    count = input.nextInt();
-                                                                    //slut
-                                                                    //slut
-                                                                    switch (count) {
-                                                                        case 1 -> System.out.println(line20);
-                                                                        case 2 -> System.out.println(line1);
-                                                                    }
-                                                                }
-                                                                case 2 -> System.out.println(line1);
-                                                            }
-                                                        }
-                                                        case 2 -> System.out.println(line14);
-                                                    }
-                                                }
-                                                case 2 -> {
-                                                    System.out.println(line6);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> System.out.println(line5);
-                                                        case 2 -> System.out.println(line13);
-                                                    }
+                                                    case 2 -> System.out.println(line1);
                                                 }
                                             }
+                                            case 2 -> System.out.println(line20);
                                         }
                                     }
-                                }
-                                case 2 -> {
-                                    System.out.println(line2);
-                                    count = input.nextInt();
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line16);
-                                            count = input.nextInt();
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line18);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> System.out.println(line20);
-                                                        case 2 -> System.out.println(line1);
-                                                    }
-                                                }
-                                                case 2 -> System.out.println(line1);
-                                            }
-                                        }
-                                        case 2 -> {
-                                            System.out.println(line9);
-                                            count = input.nextInt();
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line11);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> {
-                                                            System.out.println(line16);
-                                                            count = input.nextInt();
-                                                            //slut
-                                                            switch (count) {
-                                                                case 1 -> {
-                                                                    System.out.println(line18);
-                                                                    count = input.nextInt();
-                                                                    //slut
-                                                                    //slut
-                                                                    switch (count) {
-                                                                        case 1 -> System.out.println(line20);
-                                                                        case 2 -> System.out.println(line1);
-                                                                    }
-                                                                }
-                                                                case 2 -> System.out.println(line1);
-                                                            }
-                                                        }
-                                                        case 2 -> System.out.println(line20);
-                                                    }
-                                                }
-                                                case 2 -> System.out.println(line20);
-                                            }
-                                        }
-                                    }
+                                    case 2 -> System.out.println(line20);
                                 }
                             }
                         }
                     }
                 }
             }
-        }
-        case 3 -> {
-            System.out.println(line10);
-            System.out.println(line7);
-            count = input.nextInt();
-            switch (count) {
-                case 1 -> {
-                    System.out.println(line15);
-                    count = input.nextInt();
-                    switch (count) {
-                        case 1 -> {
-                            System.out.println(line8);
-                            count = input.nextInt();
-                            //slut
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line16);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line18);
-                                            count = input.nextInt();
-                                            //slut
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> System.out.println(line20);
-                                                case 2 -> System.out.println(line1);
+            case 2 -> {
+                System.out.println(line4);
+                count = input.nextInt();
+                switch (count) {
+                    case 1 -> {
+                        System.out.println(line7);
+                        count = input.nextInt();
+                        switch (count) {
+                            case 1 -> {
+                                System.out.println(line15);  /////
+                                count = input.nextInt();
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line8);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line16);
+                                                count = input.nextInt();
+                                                // slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line18);
+                                                        count = input.nextInt();
+                                                        // slut
+                                                        // slut
+                                                        switch (count) {
+                                                            case 1 -> System.out.println(line20);
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line1);
+                                                }
+                                            }
+                                            case 2 -> System.out.println(line14);
+                                        }
+                                    }
+                                    case 2 -> {
+                                        System.out.println(line12);
+                                        count = input.nextInt();
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line3);
+                                                count = input.nextInt();
+                                                // slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line16);
+                                                        count = input.nextInt();
+                                                        // slut
+                                                        switch (count) {
+                                                            case 1 -> {
+                                                                System.out.println(line18);
+                                                                count = input.nextInt();
+                                                                //slut
+                                                                //slut
+                                                                switch (count) {
+                                                                    case 1 -> System.out.println(line20);
+                                                                    case 2 -> System.out.println(line1);
+                                                                }
+                                                            }
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line14);
+                                                }
+                                            }
+                                            case 2 -> {
+                                                System.out.println(line6);
+                                                count = input.nextInt();
+                                                //slut
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> System.out.println(line5);
+                                                    case 2 -> System.out.println(line13);
+                                                }
                                             }
                                         }
-                                        case 2 -> System.out.println(line1);
                                     }
                                 }
-                                case 2 -> System.out.println(line14);
+                            }
+                            case 2 -> {
+                                System.out.println(line2);
+                                count = input.nextInt();
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line16);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line18);
+                                                count = input.nextInt();
+                                                //slut
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> System.out.println(line20);
+                                                    case 2 -> System.out.println(line1);
+                                                }
+                                            }
+                                            case 2 -> System.out.println(line1);
+                                        }
+                                    }
+                                    case 2 -> {
+                                        System.out.println(line9);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line11);
+                                                count = input.nextInt();
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line16);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> {
+                                                                System.out.println(line18);
+                                                                count = input.nextInt();
+                                                                //slut
+                                                                //slut
+                                                                switch (count) {
+                                                                    case 1 -> System.out.println(line20);
+                                                                    case 2 -> System.out.println(line1);
+                                                                }
+                                                            }
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line20);
+                                                }
+                                            }
+                                            case 2 -> System.out.println(line20);
+                                        }
+                                    }
+                                }
                             }
                         }
-                        case 2 -> {
-                            System.out.println(line12);
-                            count = input.nextInt();
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line3);
-                                    count = input.nextInt();
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line16);
-                                            count = input.nextInt();
-                                            //slut
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line18);
-                                                    count = input.nextInt();
-                                                    //slut
-                                                    //slut
-                                                    switch (count) {
-                                                        case 1 -> System.out.println(line20);
-                                                        case 2 -> System.out.println(line1);
+                    }
+                    case 2 -> {
+                        System.out.println(line19);
+                        count = input.nextInt();
+                        // slut
+                        switch (count) {
+                            case 1 -> System.out.println(line17);
+                            case 2 -> {
+                                System.out.println(line7);
+                                count = input.nextInt();
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line15);
+                                        count = input.nextInt();
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line8);
+                                                count = input.nextInt();
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line16);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> {
+                                                                System.out.println(line18);
+                                                                count = input.nextInt();
+                                                                //slut
+                                                                //slut
+                                                                switch (count) {
+                                                                    case 1 -> System.out.println(line20);
+                                                                    case 2 -> System.out.println(line1);
+                                                                }
+                                                            }
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line14);
+                                                }
+                                            }
+                                            case 2 -> {
+                                                System.out.println(line12);
+                                                count = input.nextInt();
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line3);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> {
+                                                                System.out.println(line16);
+                                                                count = input.nextInt();
+                                                                //slut
+                                                                switch (count) {
+                                                                    case 1 -> {
+                                                                        System.out.println(line18);
+                                                                        count = input.nextInt();
+                                                                        //slut
+                                                                        //slut
+                                                                        switch (count) {
+                                                                            case 1 -> System.out.println(line20);
+                                                                            case 2 -> System.out.println(line1);
+                                                                        }
+                                                                    }
+                                                                    case 2 -> System.out.println(line1);
+                                                                }
+                                                            }
+                                                            case 2 -> System.out.println(line14);
+                                                        }
+                                                    }
+                                                    case 2 -> {
+                                                        System.out.println(line6);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> System.out.println(line5);
+                                                            case 2 -> System.out.println(line13);
+                                                        }
                                                     }
                                                 }
-                                                case 2 -> System.out.println(line1);
                                             }
                                         }
-                                        case 2 -> System.out.println(line14);
                                     }
-                                }
-                                case 2 -> {
-                                    System.out.println(line6);
-                                    count = input.nextInt();
-                                    //slut
-                                    //slut
-                                    switch (count) {
-                                        case 1 -> System.out.println(line5);
-                                        case 2 -> System.out.println(line13);
+                                    case 2 -> {
+                                        System.out.println(line2);
+                                        count = input.nextInt();
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line16);
+                                                count = input.nextInt();
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line18);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> System.out.println(line20);
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line1);
+                                                }
+                                            }
+                                            case 2 -> {
+                                                System.out.println(line9);
+                                                count = input.nextInt();
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line11);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> {
+                                                                System.out.println(line16);
+                                                                count = input.nextInt();
+                                                                //slut
+                                                                switch (count) {
+                                                                    case 1 -> {
+                                                                        System.out.println(line18);
+                                                                        count = input.nextInt();
+                                                                        //slut
+                                                                        //slut
+                                                                        switch (count) {
+                                                                            case 1 -> System.out.println(line20);
+                                                                            case 2 -> System.out.println(line1);
+                                                                        }
+                                                                    }
+                                                                    case 2 -> System.out.println(line1);
+                                                                }
+                                                            }
+                                                            case 2 -> System.out.println(line20);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line20);
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
                         }
                     }
                 }
-                case 2 -> {
-                    System.out.println(line2);
-                    count = input.nextInt();
-                    switch (count) {
-                        case 1 -> {
-                            System.out.println(line16);
-                            count = input.nextInt();
-                            //slut
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line18);
-                                    count = input.nextInt();
-                                    switch (count) {
-                                        case 1 -> System.out.println(line20);
-                                        case 2 -> System.out.println(line1);
+            }
+            case 3 -> {
+                System.out.println(line10);
+                System.out.println(line7);
+                count = input.nextInt();
+                switch (count) {
+                    case 1 -> {
+                        System.out.println(line15);
+                        count = input.nextInt();
+                        switch (count) {
+                            case 1 -> {
+                                System.out.println(line8);
+                                count = input.nextInt();
+                                //slut
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line16);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line18);
+                                                count = input.nextInt();
+                                                //slut
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> System.out.println(line20);
+                                                    case 2 -> System.out.println(line1);
+                                                }
+                                            }
+                                            case 2 -> System.out.println(line1);
+                                        }
+                                    }
+                                    case 2 -> System.out.println(line14);
+                                }
+                            }
+                            case 2 -> {
+                                System.out.println(line12);
+                                count = input.nextInt();
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line3);
+                                        count = input.nextInt();
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line16);
+                                                count = input.nextInt();
+                                                //slut
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line18);
+                                                        count = input.nextInt();
+                                                        //slut
+                                                        //slut
+                                                        switch (count) {
+                                                            case 1 -> System.out.println(line20);
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line1);
+                                                }
+                                            }
+                                            case 2 -> System.out.println(line14);
+                                        }
+                                    }
+                                    case 2 -> {
+                                        System.out.println(line6);
+                                        count = input.nextInt();
+                                        //slut
+                                        //slut
+                                        switch (count) {
+                                            case 1 -> System.out.println(line5);
+                                            case 2 -> System.out.println(line13);
+                                        }
                                     }
                                 }
-                                case 2 -> System.out.println(line1);
                             }
                         }
-                        case 2 -> {
-                            System.out.println(line9);
-                            count = input.nextInt();
-                            // slut
-                            switch (count) {
-                                case 1 -> {
-                                    System.out.println(line11);
-                                    count = input.nextInt();
-                                    switch (count) {
-                                        case 1 -> {
-                                            System.out.println(line16);
-                                            count = input.nextInt();
-                                            switch (count) {
-                                                case 1 -> {
-                                                    System.out.println(line18);
-                                                    count = input.nextInt();
-                                                    switch (count) {
-                                                        case 1 -> System.out.println(line20);
-                                                        case 2 -> System.out.println(line1);
-                                                    }
-                                                }
-                                                case 2 -> System.out.println(line20);
-                                            }
+                    }
+                    case 2 -> {
+                        System.out.println(line2);
+                        count = input.nextInt();
+                        switch (count) {
+                            case 1 -> {
+                                System.out.println(line16);
+                                count = input.nextInt();
+                                //slut
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line18);
+                                        count = input.nextInt();
+                                        switch (count) {
+                                            case 1 -> System.out.println(line20);
+                                            case 2 -> System.out.println(line1);
                                         }
-                                        case 2 -> System.out.println(line20);
                                     }
+                                    case 2 -> System.out.println(line1);
                                 }
-                                case 2 -> System.out.println(line20);
+                            }
+                            case 2 -> {
+                                System.out.println(line9);
+                                count = input.nextInt();
+                                // slut
+                                switch (count) {
+                                    case 1 -> {
+                                        System.out.println(line11);
+                                        count = input.nextInt();
+                                        switch (count) {
+                                            case 1 -> {
+                                                System.out.println(line16);
+                                                count = input.nextInt();
+                                                switch (count) {
+                                                    case 1 -> {
+                                                        System.out.println(line18);
+                                                        count = input.nextInt();
+                                                        switch (count) {
+                                                            case 1 -> System.out.println(line20);
+                                                            case 2 -> System.out.println(line1);
+                                                        }
+                                                    }
+                                                    case 2 -> System.out.println(line20);
+                                                }
+                                            }
+                                            case 2 -> System.out.println(line20);
+                                        }
+                                    }
+                                    case 2 -> System.out.println(line20);
+                                }
                             }
                         }
                     }
@@ -601,10 +600,4 @@ static void startAdventure(){
 }
 
 
-    public static void main(String[] args) {
 
-    startAdventure();
-
-    }
-
-}
