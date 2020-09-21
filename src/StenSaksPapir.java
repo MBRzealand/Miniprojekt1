@@ -37,38 +37,26 @@ public class StenSaksPapir {
         System.out.println("Du vælger: " + playerPlay);
         System.out.println("Computeren vælger: " + computerPlay);
 
-    boolean PlayerWon = false;
-    if (playerPlay.equals(computerPlay)) {
+    boolean PlayerWon;
+    if (playerPlay.equals(computerPlay)){
         System.out.println("Det blev uafgjort");
-
-        /* Hvis det bliver uafgjort printer den stadig "Du tabte" ud
-        og den printer "Du tabte" ud selvom den burde printe "Du vandt ud.
-
-        Jeg har også prøvet at bruge sout i stedet for PlayerWon, men det virkede heller ikke
-        */
-
-    }if (playerPlay.equals(1)){
-    } else if (computerPlay.equals(2)){
-        PlayerWon = true;
-
-    }if (computerPlay.equals(3)){
-        PlayerWon = false;
-
-    }else if (playerPlay.equals(2)){
-
-    }if (computerPlay.equals(3)){
-        PlayerWon = true;
-
-    } else if (computerPlay.equals(1)) {
-        PlayerWon = false;
-    }
-
-    if (PlayerWon == true) {
+    }if(playerPlay.equals(1) && computerPlay.equals(2)){
             System.out.println("Du vandt");
-        }else if (PlayerWon ==false){
-            System.out.println("Du tabte");
+    }else if (playerPlay.equals(1) && computerPlay.equals(3)){
+            System.out.println("du tabte");
         }
-    }
+
+
+
+
+
+
+
+    if (PlayerWon = true){
+        System.out.println("Du vandt");
+    }else
+        System.out.println("Du tabte");
+}
 }
 
 
