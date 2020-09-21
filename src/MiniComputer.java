@@ -55,15 +55,15 @@ public class MiniComputer {
                 switch (x) {
                     case 1 -> Terning.main(null);
                     case 2 -> RentersRente.main(null);
-                    case 3 -> LottoTal.main(null);
-                    case 4 -> Convert.main(null);
+                    case 3 -> LottoTal.tal();
+                    case 4 -> Convert.money();
                     case 5 -> StenSaksPapir.main(null);
-                    case 6 -> ConverSec.main(null);
+                    case 6 -> ConverSec.ConvertSec();
                     case 7 -> CYOAdventure.main(null);
                     case 8 -> HejVerden.main(null);
                     case 9 -> TalGaetter.main(null);
                     case 10 -> ASCII_Art.main(null);
-                    case 11 -> Findvokaler.main(null);
+                    case 11 -> Findvokaler.ord();
                     case 12 -> Jokes.main(null);
                     case 13 -> {
                         System.out.println("Farvel");
